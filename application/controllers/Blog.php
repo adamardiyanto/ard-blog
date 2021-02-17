@@ -81,6 +81,7 @@ class Blog extends CI_Controller {
 
 	public function admin()
 	{
+		$this->load->library('session');
 		if(empty($this->session->userdata('username'))){
         echo '<script>alert("Silahkan login dahulu untuk mengakses data.");window.location.href="'.base_url('blog/login').'";</script>';}
 
@@ -113,6 +114,7 @@ class Blog extends CI_Controller {
 	}
 
 	public function cek_login(){
+		$this->load->library('session');
 		$username = $this->input->post('username');
 		$password = $this->input->post('password');
 
