@@ -80,7 +80,7 @@ $db['default'] = array(
 	'password' => '
 5fc1a511009bcf15d7aaf21a1d4ca8e55da63a21e8801ec5f94c79f97e37ca28',
 	'database' => 'd6nb8prkkh57bk',
-	'dbdriver' => 'pdo',
+	'dbdriver' => '',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
