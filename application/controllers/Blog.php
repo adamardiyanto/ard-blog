@@ -6,7 +6,7 @@ class Blog extends CI_Controller {
 		parent::__construct();
 
 		$this->load->model('AdminModel');
-		$this->load->library('session');
+		
 	}
 
 	public function update($id){
@@ -36,6 +36,7 @@ class Blog extends CI_Controller {
 		}
 	}
 	public function create(){
+		$this->load->library('session');
 		if(empty($this->session->userdata('username'))){
         echo '<script>alert("Silahkan login dahulu untuk mengakses data.");window.location.href="'.base_url('blog/login').'";</script>';
     	}
