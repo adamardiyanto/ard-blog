@@ -19,7 +19,7 @@
     <div class="container-fluid">
       <a class="navbar-brand p-2 flex-grow-1">ARD's Blog</a>
       <form class="d-flex me-2" method="POST" action="<?= base_url('blog/search')  ?>">
-        <input class="form-control me-2 justify-content-end" type="search" placeholder="Search" aria-label="Search" required>
+        <input class="form-control me-2 justify-content-end" type="search" placeholder="Search" aria-label="Search" name="kata" required>
         <button class="btn btn-outline-success me-2 justify-content-end" type="submit"><i class="fa fa-search" required> Cari</i></button>
       </form>
       <a href="<?= base_url('blog/login') ?>" class="btn btn-outline-primary me-1 btn-lg"><i class="fa fa-sign-in"> Login </i></a>
