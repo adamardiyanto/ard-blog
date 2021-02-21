@@ -15,7 +15,7 @@
   </head>
   <body class="d-flex flex-column h-100">
     <!--Navbar -->
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-dark bg-dark sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand p-2 flex-grow-1">ARD's Blog</a>
       <form class="d-flex me-2" method="POST" action="<?= base_url('blog/search')  ?>">
