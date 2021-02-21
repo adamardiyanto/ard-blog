@@ -25,8 +25,8 @@
 	</nav>
 
 	<!-- content -->
-	<div class="container">
-		<h3>Login dahulu untuk menambah postingan</h3>
+	<div class="container my-2">
+		<h3 >Login dahulu untuk menambah postingan</h3>
 		<div class="card">
 		  <h5 class="card-header">Login</h5>
 		  <div class="card-body">
