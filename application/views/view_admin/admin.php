@@ -23,8 +23,8 @@
 	      <button class="btn btn-outline-success me-2 justify-content-end" type="submit"><i class="fa fa-search"> Cari</i></button>
 	    </form>
 	    <div class="dropdown">
-		  <button class="btn btn-secondary dropdown-toggle btn-lg" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-		    <?= $this->session->userdata('username'); ?>
+		  <button class="btn btn-secondary dropdown-toggle btn-lg" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-sign-out">
+		    <?= $this->session->userdata('username'); ?></i>
 		  </button>
 		  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
 		    <li><a class="dropdown-item" href="<?= base_url('blog/logout');  ?>">Logout</a></li>
