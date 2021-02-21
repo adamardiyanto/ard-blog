@@ -44,7 +44,7 @@
 	<div class="card mx-2 my-2">
 	  <div class="card-body">
 	    <h5 class="card-title"><?= $post['judul'];  ?> </h5>
-	    <p class="card-text"><?= $post['isi'];  ?></p>
+	    <p class="card-text" style="-webkit-line-clamp:3; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical;"><?= $post['isi'];  ?></p>
 	    <p class="text-end"><a href="<?= base_url('blog/read_more/').$post['id'];  ?>" class="card-link">Read More</a></p>
 	  </div>
 	</div>
