@@ -20,7 +20,7 @@
 	      <input class="form-control me-2 justify-content-end" type="search" placeholder="Search" aria-label="Search" required>
 	      <button class="btn btn-outline-success me-2 justify-content-end" type="submit"><i class="fa fa-search" required> Cari</i></button>
 	    </form>
-	    <a href="<?= base_url('blog/login') ?>" class="btn btn-dark me-1"><i class="fa fa-sign-out"> Login </i></a>
+	    <a href="<?= base_url('blog/login') ?>" class="btn btn-outline-primary me-1"><i class="fa fa-sign-in"> Login </i></a>
 	  </div>
 	</nav>
 
