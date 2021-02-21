@@ -41,7 +41,7 @@
   <a href="<?= base_url('blog') ?>" class="btn btn-outline-success d-md-flex justify-content-md-start ms-2 my-2 "  style="width: 5rem;"><i class="fa fa-home"> Home</i></a>
   <h5 class="ms-2">Hasil Penelusuran</h5>
 	<?php foreach ($posts as $post) : ?>
-	<div class="card mx-2 my-2">
+	<div class="card mx-2 my-2 text-dark bg-light">
 	  <div class="card-body">
 	    <h5 class="card-title"><?= $post['judul'];  ?> </h5>
 	    <p class="card-text" style="-webkit-line-clamp:3; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical;"><?= $post['isi'];  ?></p>

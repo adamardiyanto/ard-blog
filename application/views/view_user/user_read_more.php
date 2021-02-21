@@ -37,7 +37,7 @@
 	<!-- content -->
 	
 		<a href="<?= base_url('blog') ?>" class="btn btn-outline-success d-md-flex justify-content-md-start ms-2 "  style="width: 5rem;"><i class="fa fa-home"> Home</i></a>
-		<div class="card mx-2 my-2">
+		<div class="card mx-2 my-2 text-dark bg-light">
 		  <div class="card-body">
 		    <h5 class="card-title"><?= $user['judul'];  ?></h5>
 		    <p class="card-text"><?= $user['isi'];  ?></p>
