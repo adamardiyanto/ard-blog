@@ -25,7 +25,7 @@
 	</nav>
 
 	<!-- content -->
-	<div class="container">
+	<div class="container my-2">
 		<h3>Register Pengguna Baru</h3>
 		<div class="card">
 		  <h5 class="card-header">Register</h5>
