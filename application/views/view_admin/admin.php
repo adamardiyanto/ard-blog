@@ -71,7 +71,7 @@
 					      <td><?= $user['isi'] ?></td>
 					      <td>
 					      	<a href="<?= base_url('blog/post_update/'). $user['id'];  ?>"><button type="button" class="btn btn-info"><i class="fa fa-edit"> </i> Ubah</button></a>
-					      	<a href="<?= base_url('blog/delete/').$user['id'];  ?>"><button type="button" class="btn btn-danger" id="liveToastBtn" ><i class="fa fa-trash"> </i> Hapus</button></a>
+					      	<a href="<?= base_url('blog/delete/').$user['id'];  ?>"><button type="button" class="btn btn-danger" id="liveToastBtn" onclick="return confirm('Anda Yakin ingin menghapus post ini?')"><i class="fa fa-trash"> </i> Hapus</button></a>
 					      			 
 					      </td>
 					    </tr>
