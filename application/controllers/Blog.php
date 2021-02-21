@@ -134,8 +134,8 @@ class Blog extends CI_Controller {
 			);
  
 			$this->session->set_userdata($data_session);
-
-			redirect('blog/admin');
+			echo '<script>alert("Anda Berhasil Login.");window.location.href="'.base_url('blog/admin').'";</script>';
+			// redirect('blog/admin');
 		}
 	}
 
