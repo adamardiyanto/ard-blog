@@ -67,7 +67,7 @@
 				  		<?php foreach ($users as $user) : ?>
 					    <tr>
 					      <th scope="row"><?= $user['id'];  ?></th>
-					      <td ><p class="text-truncate" style="-webkit-line-clamp:3; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical;"><?=  $user['judul']; ?></p></td>
+					      <td ><?=  $user['judul']; ?></td>
 					      <td><?= $user['isi'] ?></td>
 					      <td>
 					      	<a href="<?= base_url('blog/post_update/'). $user['id'];  ?>"><button type="button" class="btn btn-info"><i class="fa fa-edit"> </i> Ubah</button></a>
