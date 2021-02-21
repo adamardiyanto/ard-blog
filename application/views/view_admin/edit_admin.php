@@ -27,7 +27,7 @@
         <?= $this->session->userdata('username'); ?>
       </button>
       <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-        <li><a class="dropdown-item" href="<?= base_url('blog/logout');  ?>"><i class="fa fa-sign-out">Logout</i></a></li>
+        <li><a class="dropdown-item" href="<?= base_url('blog/logout');  ?>" onclick="return confirm('Anda Yakin ingin logout?')"><i class="fa fa-sign-out">Logout</i></a></li>
       </ul>
     </div>
     </div>
