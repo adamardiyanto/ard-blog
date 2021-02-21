@@ -20,7 +20,7 @@ class AdminModel extends CI_Model
 	}
 
 	public function getAll(){
-		$query = $this->db->get($this::Table_Name)->order_by('id', 'DESC')result_array();
+		$query = $this->db->get($this::Table_Name)->order_by('id', 'DESC')->result_array();
 		return $query;	
 
 	}
