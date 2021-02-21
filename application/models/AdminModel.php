@@ -33,7 +33,7 @@ class AdminModel extends CI_Model
 
 	public function findbyJudul($kata)
 	{
-			$this->db->like('judul', $keyword);
+			$this->db->like('judul', $kata);
 			return $this->db->get($this::Table_Name)->result_array();
 	}
 
