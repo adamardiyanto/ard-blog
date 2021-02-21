@@ -21,7 +21,7 @@ class AdminModel extends CI_Model
 
 	public function getAll(){
 		$query = $this->db
-					  ->select('id,judul,SUBSTRING(isi,1,50) as isi')
+					  ->select('id,judul,SUBSTRING(isi,1,150) as isi')
 					  ->get($this::Table_Name)->result_array();
 		return $query;	
 
