@@ -36,7 +36,7 @@
 
 	<!-- content -->
 	<?php foreach ($users as $user) : ?>
-	<div class="card mx-2 my-2">
+	<div class="card mx-2 my-2 text-dark bg-light">
 	  <div class="card-body">
 	    <h5 class="card-title"><?= $user['judul'];  ?></h5>
 	    <p class="card-text text-truncate" style="-webkit-line-clamp:3; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical;" ><?= $user['isi']; ?></p>
