@@ -51,7 +51,7 @@
 	  		</div>
 		</div>
 
-		<div class="card text-center mt-3">
+		<div class="card mt-3">
 	  		<h5 class="card-header">Postingan Anda</h5>
 	  		<div class="card-body">
 	    		<table class="table table-hover table-borderless">
