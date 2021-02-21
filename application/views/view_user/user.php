@@ -39,7 +39,7 @@
 	<div class="card mx-2 my-2">
 	  <div class="card-body">
 	    <h5 class="card-title"><?= $user['judul'];  ?></h5>
-	    <p class="card-text"><?= $user['isi']; ?></p>
+	    <p class="card-text" style="-webkit-line-clamp:2; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical; " ><?= $user['isi']; ?></p>
 	    <p class="text-end"><a href="<?= base_url('blog/read_more/').$user['id'];  ?>" class="card-link">Read More</a></p>
 	  </div>
 	</div>
