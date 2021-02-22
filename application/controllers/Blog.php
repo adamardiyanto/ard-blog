@@ -26,11 +26,15 @@ class Blog extends CI_Controller {
 	}
 
 	public function post_update($id){
+		if(empty($this->session->userdata('username'))){
+        echo '<script>alert("Silahkan login dahulu untuk mengakses data.");window.location.href="'.base_url('blog/login').'";</script>';}
 		$data['user']=$this->AdminModel->findbyId($id);
 		$this->load->view('view_admin/edit_admin',$data);
 	}
 
 	public function delete($id){
+		if(empty($this->session->userdata('username'))){
+        echo '<script>alert("Silahkan login dahulu untuk mengakses data.");window.location.href="'.base_url('blog/login').'";</script>';}
 		if ($this->AdminModel->delete($id)) {
 			redirect('blog/admin');
 		}
